@@ -1,0 +1,122 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - esys_flutter_share_plus (0.0.1):
+    - Flutter
+  - ffmpeg-kit-ios-video (5.1.LTS)
+  - ffmpeg_kit_flutter_video (5.1.0.LTS):
+    - ffmpeg_kit_flutter_video/video-lts (= 5.1.0.LTS)
+    - Flutter
+  - ffmpeg_kit_flutter_video/video-lts (5.1.0.LTS):
+    - ffmpeg-kit-ios-video (= 5.1.LTS)
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_image_compress (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - libwebp (1.2.4):
+    - libwebp/demux (= 1.2.4)
+    - libwebp/mux (= 1.2.4)
+    - libwebp/webp (= 1.2.4)
+  - libwebp/demux (1.2.4):
+    - libwebp/webp
+  - libwebp/mux (1.2.4):
+    - libwebp/demux
+  - libwebp/webp (1.2.4)
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.0.4):
+    - Flutter
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - SDWebImageWebPCoder (0.11.0):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.15)
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - esys_flutter_share_plus (from `.symlinks/plugins/esys_flutter_share_plus/ios`)
+  - ffmpeg_kit_flutter_video (from `.symlinks/plugins/ffmpeg_kit_flutter_video/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_image_compress (from `.symlinks/plugins/flutter_image_compress/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-video
+    - FMDB
+    - libwebp
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  esys_flutter_share_plus:
+    :path: ".symlinks/plugins/esys_flutter_share_plus/ios"
+  ffmpeg_kit_flutter_video:
+    :path: ".symlinks/plugins/ffmpeg_kit_flutter_video/ios"
+  Flutter:
+    :path: Flutter
+  flutter_image_compress:
+    :path: ".symlinks/plugins/flutter_image_compress/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  esys_flutter_share_plus: 302b73471e2686a9ce282898d1df5d6f4382edba
+  ffmpeg-kit-ios-video: 9b99ee4cd072497e1c75fc4abcd3564012e6f59c
+  ffmpeg_kit_flutter_video: 10a76e270d62817adc2810f3cb92c9b1310cd4dc
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_image_compress: 5a5e9aee05b6553048b8df1c3bc456d0afaac433
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  package_info_plus: 6c92f08e1f853dc01228d6f553146438dafcd14e
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  permission_handler_apple: 44366e37eaf29454a1e7b1b7d736c2cceaeb17ce
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  SDWebImageWebPCoder: 295a6573c512f54ad2dd58098e64e17dcf008499
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+
+PODFILE CHECKSUM: 4e325e27fa57c6641e8d325c0f71dd52f0af9d47
+
+COCOAPODS: 1.11.3
